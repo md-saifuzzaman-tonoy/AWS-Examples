@@ -1,7 +1,6 @@
 tasks:
   - name: Install AWS CLI
     init: |
-      cd /workspace
       # Download the AWS CLI installer
       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
       
@@ -13,5 +12,3 @@ tasks:
       
       # Clean up temporary files
       rm -rf awscliv2.zip aws/
-
-      cd $THEIA_WORKSPACE_ROOT
