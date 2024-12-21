@@ -10,5 +10,8 @@ tasks:
       # Run the installer
       sudo ./aws/install
 
+      # Enable AWS CLI Auto Prompt feature
+      export AWS_CLI_AUTO_PROMPT=on-partial
+      
       # Clean up temporary files
       rm -rf awscliv2.zip aws/
