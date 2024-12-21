@@ -9,6 +9,6 @@ tasks:
       
       # Run the installer
       sudo ./aws/install
-      
+
       # Clean up temporary files
       rm -rf awscliv2.zip aws/
